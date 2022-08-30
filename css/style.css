@@ -1,0 +1,1277 @@
+html,body {
+    margin:0;
+    padding:0;
+    overflow-x:hidden;
+    box-sizing: border-box;
+}
+/*------------------------header*---------------------/
+/*contaner*/
+.container-header{
+    width: 100%;
+    background-color: #252531af;
+    overflow: auto;
+    position: fixed;
+    z-index: 10;
+}
+/*contaner*/
+
+/* ------design for logo*/
+.logo{
+    float: left;
+    margin-left: 100px;
+}
+.logo a{
+    text-decoration: none;
+    word-spacing: -5px;
+    text-transform: capitalize;
+}
+
+.logo a h1{
+    color: white;
+}
+.logo a h1 span{
+    color: #DFB163 ;
+}
+/*---------------------*/
+
+/*------Design for li*/
+.container-header ul  {
+    list-style-type: none;
+    float: right;
+    margin-right: 70px;
+}
+.container-header ul li {
+    display: inline-block;
+    color: #f3f6ff;
+    margin:  15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    text-transform: capitalize;
+    font-size: 20px;
+}
+.container-header ul li.home{
+    color:#DFB163;
+    
+}
+.container-header ul li:hover{
+    color: #DFB163;
+    transition: .8s;
+}
+.container-header ul li:after{
+    content: " ";
+    width: 0;
+    height: 3px;
+    display: block;
+    background-color: #DFB163;
+    transition: .5s;
+}
+.container-header ul li:hover::after{
+    width: 100%;
+}
+.container-header ul li.home:after{
+    width: 100%;
+}
+/*-------------------------*/
+
+
+
+
+
+
+/*-------------------------------End header-----------------------------------*/
+/*-------------------------------Hero img------------------------------------*/
+
+.cotainer-overlay{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/carousel-1.jpg);
+    
+}
+.cotainer-overlay .overlay{
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100vh;
+    position: relative;
+}
+.cotainer-overlay .overlay .hero{
+    position: absolute;
+    width: 60%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.cotainer-overlay .overlay .hero p{
+    color: #DFB163;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 1.2;
+    font-size: 25px;
+    font-family: sans-serif;
+}
+.cotainer-overlay .overlay .hero h2{
+    font-size: 4.5rem;
+    line-height: 1.2;
+    color: beige;
+    text-transform: capitalize;
+}
+.cotainer-overlay .overlay .hero .button{
+    color: beige;
+    background-color: #DFB163;
+    border: none;
+    width: 150px;
+    height: 50px;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+    border-radius: 8px;
+}
+.cotainer-overlay .overlay .hero .button:hover{
+    background-color: #ca9f54;
+    cursor: pointer;
+}
+
+/*-------------------------------End Hero img------------------------------------*/
+
+/*-----------------------------Learn Aboat ----------------------------------------*/
+.container-about{
+    width: 100%;
+    background-color: #f3f6fff3 ;
+}
+/*----------------about-------------------------------*/
+.about{
+    width: 85%;
+    background-color: #DFB163 !important;
+    overflow: auto;
+    margin: auto;
+}
+/*--------------------experance-----------------------------*/
+.experance{
+    /*background-color: black;*/
+    color: aliceblue;
+    display: inline-block;
+    width: 33%;
+    height: 394px;
+    position: relative;
+    top: 50%;
+    transform: translateY(30%);
+}
+.experance-son{
+   /* background-color: red;*/
+    color: #000;
+    padding-top: 20px;
+    width: 100%;
+    text-align: center;
+    font-weight: 600;
+    font-size: xxx-large;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.experance .experance-son i{
+    font-size: 65px;
+    
+}
+.experance .experance-son h2{
+    font-size: 56px;
+    font-family: fantasy;
+}
+.experance .experance-son p{
+    font-size: 25px;
+    font-weight: 600;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: fantasy;
+    letter-spacing: 5px;
+}
+
+
+/*-----------------------learn-us----------------------*/
+.learn-us{
+    background-color: burlywood;
+    float: right;
+    width: 67%;
+    
+}
+.learn-us .learn-us-son{
+    background-color: #f3f6fff3  ;
+    padding-left: 30px;
+    padding-top: 30px;
+}
+.learn-us .learn-us-son h3{
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: large;
+    color: #DFB163 ;
+    
+}
+.learn-us .learn-us-son .abdo{
+    display: inline-block;
+
+    height: 4px;
+    background-color:#DFB163;
+    width: 50px;
+}
+.learn-us .learn-us-son h2{
+    font-size: 2.5rem;
+    font-weight: 900;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;font-family: sans-serif;
+    letter-spacing: 2px;
+}
+.learn-us .learn-us-son p{
+    color: rgb(126, 115, 115);
+    text-transform: uppercase;
+    line-height: 1.5rem;
+}
+
+/*--------------------planning--------------------*/
+.planning-one{
+    overflow: auto;
+}
+.planning .planning-one ul{
+    list-style-type: none;
+
+}
+.planning .planning-one .Project-Planning{
+    display: inline-block; 
+    overflow: auto;
+}
+.planning .planning-one .Project-Planning h5{
+    display: inline-block;
+    font-size: xx-large;
+    margin-top: 12px;
+    padding-right: 20px;
+}
+.planning .planning-one .Project-Planning h3{
+    float: right;
+
+}
+.planning .planning-one .Exterior{
+    float: right;
+    padding-right: 40px;
+}
+.planning .planning-one .Exterior h5{
+    display: inline-block;
+    font-size: xx-large;
+    margin-top: 12px;
+    padding-right: 20px;
+}
+.planning .planning-one .Exterior h3{
+    float: right;
+}
+
+.planning-two{
+    overflow: auto;
+}
+.planning .planning-two ul{
+    list-style-type: none;
+
+}
+.planning .planning-two .Commercial-Design{
+    display: inline-block; 
+}
+.planning .planning-two .Commercial-Design h5{
+    display: inline-block;
+    font-size: xx-large;
+    margin-top: 12px;
+    padding-right: 20px;
+}
+.planning .planning-two .Commercial-Design h3{
+    float: right;
+}
+
+.planning .planning-two .Residential{
+    float: right;
+    padding-right: 50px;
+}
+.planning .planning-two .Residential h5{
+    font-size: xx-large;
+    margin-top: 12px;
+    padding-right: 20px;
+    display: inline-block;
+}
+.planning .planning-two .Residential h3{
+    float: right;
+}
+
+/*----------------------------- End Learn Aboat -------------------------------------*/
+/*----------------------------- containar-wel ---------------------------------------*/
+
+.containar-wel{
+    width: 100%;
+    margin-top: 50px;
+    height: 100vh;
+}
+/*------------------*/
+.containar-wel .wel{
+    padding-top: 50px;
+    width: 100%;
+}
+.containar-wel .wel p{
+    font-weight: 900;
+    font-size: xxx-large;
+    text-transform: capitalize;
+    text-align: center;
+}
+.containar-wel .wel div{
+    height: 6px;
+    width: 150px;
+    background-color: #DFB163;
+    margin: auto;
+}
+/*-------------------------*/
+.up-advantage{
+    width: 100%;
+}
+/*--------------*/
+.advantage{
+    padding-top: 50px;
+    width: 85%;
+    margin: auto;
+    overflow: auto;
+}
+.advantage div{
+    padding-top: 30px;
+    width: 30%;
+    border: 1px solid;
+    float: right;
+    margin-right: 30px;
+    height: 300px;
+    text-align: center;
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5rem;
+    position: relative;
+}
+.advantage div:hover{
+    color: #f3f6ff;
+    transition: 1s;
+    cursor: pointer;
+}
+.advantage div:hover a{
+    color: #DFB163;
+    transition: 1s;
+}
+.advantage div:hover i{
+    color: #DFB163;
+    transition: 1s;
+}
+
+.advantage div h2{
+    font-size: x-large;
+}
+.advantage div i{
+    font-size: xx-large;
+}
+.advantage div a{
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+/*-----after----------*/
+
+.advantage div::after{
+    content: " ";
+    position: absolute;
+    width: 0;
+    height: 0;
+    top: 0;
+    left: 0;
+    transition: .7s;
+}
+.advantage div:hover::after{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.781);
+    z-index: -1;
+    transition: 1s;
+
+}
+
+/*------------------------------------------------------------*/
+
+/*-------------------------our project-----------------------*/
+.container-project{
+    width: 100%;
+}
+.container-project .up-project .text-project{
+    text-align: center;
+}
+.container-project .up-project .text-project h3{
+    color: #DFB163;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container-project .up-project .text-project p{
+    font-weight: 900;
+    font-size: xx-large;
+    text-transform: capitalize;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+/*---------------------*/
+.container-project .up-project .img-project{  
+    width: 90%;
+    margin: auto;
+}
+.container-project .up-project .img-project .son-img-project{
+    width: 80%;
+    margin: auto;
+}
+.container-project .up-project .img-project .son-img-project div{
+    width: 32.8%;
+    height: 300px;
+    background-color: cadetblue;
+    display: inline-block;
+    position: relative;
+}
+
+.container-project .up-project .img-project .son-img-project div i{
+    position: absolute;
+    top: 50%;
+    left: 41%;
+    right: 50%;
+    font-size: x-large;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity .5s linear;
+    color: #ca9f54;
+    z-index: 2;
+}
+
+.container-project .up-project .img-project .son-img-project div  .abdo2{
+    padding-left: 30px;
+}
+.container-project .up-project .img-project .son-img-project div::after{
+    content: " ";
+    position: absolute;
+    width: 100%;
+    height: 0;
+    left: 0;
+    transition: .8s;
+    z-index: 1;
+}
+.container-project .up-project .img-project .son-img-project div:hover:after{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.811);
+    transition: 1s;
+
+}
+
+.container-project .up-project .img-project .son-img-project div:hover i{
+    visibility: visible;
+    opacity: 1;
+    transition-delay: .7s;
+    cursor: pointer;
+}
+
+/*-------imges------------*/
+.container-project .up-project .img-project .son-img-project .one{
+    background-image: url(../img/blog-1.jpg);
+    background-size: cover;
+}
+.container-project .up-project .img-project .son-img-project .two{
+    background-image: url(../img/blog-2.jpg);
+    background-size: cover;
+}
+.container-project .up-project .img-project .son-img-project .three{
+    background-image: url(../img/blog-3.jpg);
+    background-size: cover;
+}
+.container-project .up-project .img-project .son-img-project .four{
+    background-image: url(../img/carousel-1.jpg);
+    background-size: cover;
+}
+.container-project .up-project .img-project .son-img-project .five{
+    background-image: url(../img/carousel-2.jpg);
+    background-size: cover;
+}
+.container-project .up-project .img-project .son-img-project .six{
+    background-image: url(../img/feature.jpg);
+    background-size: cover;
+}
+.container-project .up-project .img-project .son-img-project .seven{
+    background-image: url(../img/portfolio-1.jpg);
+    background-size: cover;
+}
+.container-project .up-project .img-project .son-img-project .eght{
+    background-image: url(../img/portfolio-4.jpg);
+    background-size: cover;
+}
+.container-project .up-project .img-project .son-img-project .nine{
+    background-image: url(../img/portfolio-6.jpg);
+    background-size: cover;
+}
+/***********************/
+/*-------------------------End our project-----------------------*/
+
+/**************************services********************************/
+.containar-services{
+    width: 100%;
+    margin-top: 50px;
+}
+/*------------------*/
+.containar-services .ser{
+    padding-top: 50px;
+    width: 100%;
+}
+.containar-services .ser p{
+    font-weight: 900;
+    font-size: xx-large;
+    text-transform: capitalize;
+    text-align: center;
+}
+.containar-services .ser div{
+    height: 6px;
+    width: 150px;
+    background-color: #DFB163;
+    margin: auto;
+}
+/*-------------------------*/
+.up-advantage-ser{
+    width: 100%;
+}
+/*--------------*/
+.advantage-ser{
+    padding-top: 50px;
+    width: 85%;
+    margin: auto;
+    overflow: auto;
+}
+.advantage-ser div{
+    padding-top: 30px;
+    width: 30%;
+    border: 1px solid;
+    float: right;
+    margin: 15px;
+
+    height: 300px;
+    text-align: center;
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5rem;
+    position: relative;
+}
+.advantage-ser div:hover{
+    color: #f3f6ff;
+    transition: 1s;
+    cursor: pointer;
+}
+.advantage-ser div:hover a{
+    color: #DFB163;
+    transition: 1.5s;
+}
+.advantage-ser div:hover i{
+    color: #DFB163;
+    transition: 1.5s;
+}
+
+.advantage-ser div h2{
+    font-size: x-large;
+}
+.advantage-ser div i{
+    font-size: xx-large;
+}
+.advantage-ser div a{
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+/*-----after----------*/
+
+.advantage-ser div::after{
+    content: " ";
+    position: absolute;
+    width: 0;
+    height: 0;
+    top: 0;
+    left: 0;
+    transition: .7s;
+}
+.advantage-ser div:hover::after{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.781);
+    z-index: -1;
+    transition: 1s;
+
+}
+/***********end after******************/
+/***************************************************************************/
+/*****************************choose us***************************************/
+.container-choose{
+    width: 100%;
+    background-color: #f3f6ff;
+}
+.container-choose .up-choose{
+    width: 90%;
+    height: 60vh;
+    margin: auto;
+    position: relative;
+}
+.container-choose .up-choose  div{
+    display: inline-block;
+}
+.container-choose .up-choose .choose-info{
+    width: 63%;
+    padding-top:40px ;
+}
+
+.container-choose .up-choose .choose-info h2 span{
+    color: #DFB163;
+    /*font-size: x-large;*/
+
+}
+.container-choose .up-choose .choose-info h2{
+    font-size: x-large;
+}
+.container-choose .up-choose .choose-info div{
+    display: inline-block;
+}
+
+.container-choose .up-choose .choose-info .line{
+
+    width: 60px;
+    height: 5px;
+    background-color: #ca9f54;
+    
+}
+
+.container-choose .up-choose .choose-info div h3{
+    font-family: fantasy;
+    font-weight: 900;
+    font-size: xx-large;
+    text-transform: capitalize;
+    margin-top: -50px;
+    letter-spacing: 3px;
+}
+.container-choose .up-choose .choose-info  p{
+    line-height: 1.5rem;
+    font-family: cursive;
+    letter-spacing: 1px;
+
+}
+.container-choose .up-choose .choose-info ul{
+    list-style: none;
+}
+.container-choose .up-choose .choose-info ul li{
+    line-height: 1.5rem;
+    font-size: large;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: 2px;
+}
+.container-choose .up-choose .choose-image{
+    position: absolute;
+    width: 37%;
+    height: 60vh;
+    background-image: url(../img/testimonial.jpg);
+    background-size: cover;
+
+}
+
+/*****************************End choose us***************************************/
+/****************************fixed**************************************************/
+.container-fixed{
+    width: 100%;
+    margin-top: 50px;
+}
+.container-fixed .up-fixed{
+    width: 100%;
+    height: 250px;
+    background-image: url(../img/carousel-1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+.container-fixed .up-fixed .fixed{
+    width: 100%;
+    height: 250px;
+    background-color: rgba(0, 0, 0, 0.569);
+}
+
+
+.container-fixed .up-fixed .fixed .son-fixed{
+    width: 80%;
+    position: absolute;
+    margin: auto;
+    top: 50%;
+    right: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.container-fixed .up-fixed .fixed .son-fixed ul{
+    list-style-type: none;
+    width: 50%;
+    margin: auto;
+    height: 150px;
+    padding-top: 20px;
+}
+.container-fixed .up-fixed .fixed .son-fixed ul li{
+    display: inline-block;
+    text-align: center;
+    padding-left: 20px;
+}
+.container-fixed .up-fixed .fixed .son-fixed ul li div i{
+    color: #DFB163;
+    font-size: xx-large;
+}
+.container-fixed .up-fixed .fixed .son-fixed ul li h3{
+    font-size: x-large;
+    color: #DFB163;
+}
+.container-fixed .up-fixed .fixed .son-fixed ul li p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:#ca9f54;
+    font-size: large;
+}
+/************************End fixed***************************************/
+/*----------------------pricing----------------------------------------*/
+.container-pricing{
+    width: 100%;
+}
+.container-pricing .up-pricing{
+    width: 100%;
+}
+.container-pricing .up-pricing .son-pricing{
+    width: 100%;
+}
+.container-pricing .up-pricing .son-pricing .pricing-info {
+    width: 25%;
+    margin: auto;
+    text-align: center;
+}
+.container-pricing .up-pricing .son-pricing .pricing-info p{
+    font-size: xx-large;
+    font-weight: 700;
+    font-family: fantasy;
+    letter-spacing: 5px;
+    margin-top: 100px;
+}
+.container-pricing .up-pricing .son-pricing .pricing-info div{
+    width: 120px;
+    height: 6px;
+    background-color: #ca9f54;
+    margin: auto;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.container-pricing .up-pricing .son-pricing .pricing-item{
+    width: 85%;
+    margin: auto;
+}
+.container-pricing .up-pricing .son-pricing .pricing-item div{
+    width: 32%;
+    border: 1px solid black;
+    display: inline-block;
+    margin: 5px;
+    height: 450px;
+    text-align: center;
+    padding-top: 20px;
+    position: relative;
+    
+}
+
+
+
+.container-pricing .up-pricing .son-pricing .pricing-item div:hover p{
+    color: #ca9f54;
+    transition: 1.5s;
+}
+.container-pricing .up-pricing .son-pricing .pricing-item div:hover .text{
+    color: #DFB163;
+    transition: 1.5s;
+}
+.container-pricing .up-pricing .son-pricing .pricing-item div:hover h3{
+    color: #ca9f54;
+    transition: 1.5s;
+}
+.container-pricing .up-pricing .son-pricing .pricing-item div:hover button{
+    background-color: #ca9f54;
+    color: azure;transition: 1.8s;
+}
+
+
+
+.container-pricing .up-pricing .son-pricing .pricing-item div p{
+    text-transform: capitalize;
+    line-height: 3.5rem;
+    font-family: cursive;
+    font-size: x-large;
+}
+.container-pricing .up-pricing .son-pricing .pricing-item div .text{
+    font-size: xx-large;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 5px;
+}
+
+.container-pricing .up-pricing .son-pricing .pricing-item div button{
+    padding: 13px;
+    font-size: initial;
+    border-radius: 6px;
+    border: none;
+
+}
+.container-pricing .up-pricing .son-pricing .pricing-item div button:hover{
+    cursor: pointer;
+}
+
+
+.container-pricing .up-pricing .son-pricing .pricing-item div h3{
+    
+
+    font-weight: 900;
+    font-size: xx-large;
+    border: 1px solid;
+    width: 100px;
+    height: 71px;
+    margin: auto;
+    border-radius: 50%;
+    padding-top: 32px;
+}
+.container-pricing .up-pricing .son-pricing .pricing-item div::after{
+    content: " ";
+    width: 100;
+    position: absolute;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.774);
+    transition: 1s;
+}
+.container-pricing .up-pricing .son-pricing .pricing-item div:hover::after{
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    transition: 1s;
+
+}
+/*****************************end pricing *********************************/
+
+.container-fixed2{
+    width: 100%;
+    margin-top: 50px;
+}
+.container-fixed2 .up-fixed2{
+    width: 100%;
+    height: 250px;
+    background-image: url(../img/carousel-2.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+.container-fixed2 .up-fixed2 .fixed2{
+    width: 100%;
+    height: 250px;
+    background-color: rgba(0, 0, 0, 0.569);
+}
+
+
+.container-fixed2 .up-fixed2 .fixed2 .son-fixed2{
+    width: 80%;
+    position: absolute;
+    margin: auto;
+    top: 50%;
+    right: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.container-fixed2 .up-fixed2 .fixed2 .son-fixed2 .info{
+    width: 70%;
+    margin: auto;
+    color: #DFB163;
+    text-align: center;
+}
+.container-fixed2 .up-fixed2 .fixed2 .son-fixed2 .info div{
+    display: inline-block;
+
+}
+.container-fixed2 .up-fixed2 .fixed2 .son-fixed2 .info .name{
+    margin-left: 100px;
+    margin-top: 20px;
+}
+.container-fixed2 .up-fixed2 .fixed2 .son-fixed2 .info .name .img img{
+    border-radius: 50%; 
+    
+}
+.container-fixed2 .up-fixed2 .fixed2 .son-fixed2 .info .name .job{
+    margin-left: 10px;
+    text-align: center;
+}
+
+
+/*******************************************************************/
+/**********************OUr TEAM**************************************/
+
+.container-team{
+    margin-top: 100px;
+    width: 100%;
+    background-color: #f3f6fff3;
+}
+.container-team .up-team{
+    width: 80%;
+    margin: auto;
+    background-color: #f3f6fff3;
+    position: relative;
+}
+.container-team .up-team .text-team,.img-team {
+    display: inline-block;
+}
+
+.container-team .up-team .text-team{
+    width: 33%;
+    text-align: center;
+    position: relative;
+    background-color: #DFB163 !important;
+    height: 500px;
+    position: relative;
+    
+}
+.container-team .up-team .text-team div{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.container-team .up-team .text-team div h2{
+    font-family: fantasy;
+    letter-spacing: 4px;
+    font-size: xx-large;
+}
+.container-team .up-team .text-team div p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: x-large;
+    font-weight: 700;
+}
+
+/**********/
+.container-team .up-team  .img-team {
+    width: 66.63%;
+    height: 500px;
+    background-color: #f3f6fff3;
+    position: absolute;
+}
+.container-team .up-team  .img-team .px{
+    background-color: aliceblue;
+    margin-top: 100px;
+    position: relative;
+}
+.container-team .up-team  .img-team .px .o-1{
+    display: inline-block;
+    width: 32%;
+    background-color: #000;
+    color: #f3f6ff;
+    margin-left: 5px;
+    position: relative;
+}
+.container-team .up-team  .img-team .px .o-1 h3{
+    position: absolute;
+    visibility: hidden;
+    top: 25%;
+    right: 32%;
+    z-index: 15;
+}
+.container-team .up-team  .img-team .px .o-1 h3 i{
+    margin: 5px;
+    color: #ca9f54;
+}
+.container-team .up-team  .img-team .px .o-1 h3 i:hover{
+    color: aliceblue;
+    cursor: pointer;
+}
+.container-team .up-team  .img-team .px .o-1 img{
+    width: 230px;
+}
+.container-team .up-team  .img-team .px .o-1:hover h3 .fac{
+    visibility: visible;
+    opacity: 1;
+    transition-delay: .5s;
+}
+.container-team .up-team  .img-team .px .o-1:hover h3 .twi{
+    visibility: visible;
+    opacity: 1;
+    transition-delay: .7s ;
+}
+.container-team .up-team  .img-team .px .o-1:hover h3 .ins{
+    visibility: visible;
+    opacity: 1;
+    transition-delay: .9s;
+}
+.container-team .up-team  .img-team .px .o-1 div h2 span{
+    text-transform: capitalize;
+    font-family: cursive;
+    text-align: center;
+}
+.container-team .up-team  .img-team .px .o-1 div h2{
+    text-transform: capitalize;
+    font-family: cursive; 
+    text-align: center;
+}
+.container-team .up-team  .img-team .px .o-1 div p{
+    text-align: center;
+    font-family: fantasy;
+    letter-spacing: 1px;
+}
+.container-team .up-team  .img-team .px .o-1:after{
+    content: " ";
+    position: absolute;
+    width: 100;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.644);
+    transition: 1s;
+
+}
+.container-team .up-team  .img-team .px .o-1:hover::after{
+    width: 100%;
+    height: 70%;
+    transition: 1s;
+    z-index: 14;
+}
+/**************************end our team*********************************************/
+
+/*------------------------------blog--------------------------------------*/
+
+.cointainer-blog{
+    width: 100%;
+    margin-top:100px ;
+}
+.cointainer-blog .up-blog .text-blog{
+    text-align: center;
+} 
+.cointainer-blog .up-blog .text-blog .ourblog{
+    font-family: fantasy;
+    letter-spacing: 5px;
+    font-size: xx-large;
+}
+.cointainer-blog .up-blog .text-blog .Read{
+    word-spacing: 3px;
+    text-transform: capitalize;
+    font-size: xx-large;
+    font-weight: 700;
+    letter-spacing: 3px;
+    line-height: 3rem;
+}
+
+/************/
+.cointainer-blog .up-blog .img-blog{
+   width: 100%;
+   background-color: #f3f6ff;    
+}
+
+.cointainer-blog .up-blog .img-blog div{
+    display: inline-block;
+    margin-left: 20px;
+    background-color:beige;
+    position: relative;
+}
+.cointainer-blog .up-blog .img-blog div img{
+    width: 278px;
+    height: 210px;
+}
+.cointainer-blog .up-blog .img-blog i{
+    margin-right: 10px;
+    background-color: #ca9f54;
+    color: #000;
+    width: 40px;
+    height: 30px;
+    padding-top: 10px;
+}
+.cointainer-blog .up-blog .img-blog h3{
+    display: inline-block;
+    display: inline-block;
+    font-family: fantasy;
+    letter-spacing: 1px;
+}
+.cointainer-blog .up-blog .img-blog p{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.cointainer-blog .up-blog .img-blog div::after{
+    content: " ";
+    position: absolute;
+    width: 100%;
+    height: 0;
+    top: 0;
+    left: 0px;
+    background-color: rgba(0, 0, 0, 0.747);
+    transition: 1s;
+}
+.cointainer-blog .up-blog .img-blog div:hover::after{
+    width: 100%;
+    height: 55.7%;
+}
+
+
+/****************************end blog*****************************/
+/***************************sub*********************************/
+
+.container-sub{
+    width: 100%;
+    margin-top: 100px;
+    background-color: #000;
+}
+
+.container-sub .up-sub{
+    position: relative;
+    margin-bottom: 71px;
+    
+}
+.container-sub .up-sub div{
+    display: inline-block;
+}
+.container-sub .up-sub .one{
+    width: 32%;
+    color: #f3f6ff;
+    padding-top: 40px;
+}
+.container-sub .up-sub .one h2{
+    font-size: x-large;
+    color: #ca9f54;
+    font-size: x-large;
+    font-family: fangsong;
+    letter-spacing: 2px;
+    font-weight: bolder;
+    padding-left: 43px;
+    line-height: 3rem;
+}
+.container-sub .up-sub .one ul{
+    list-style-type: none;
+    line-height: 3rem;
+}
+.container-sub .up-sub .one ul li i{
+    margin-right: 5px;
+}
+.container-sub .up-sub .one ul li p{
+    display: inline-block;
+    font-family: cursive;
+}
+.container-sub .up-sub .one ul .oo i{
+    font-size: x-large;
+    margin-right: 10px;
+    width: 20px;
+    height: 22px;
+    border: 1px solid;
+    padding: 11px;
+    border-radius: 50%;
+}
+.container-sub .up-sub .one ul .oo i:hover{
+    cursor: pointer;
+    background-color: white;
+    color: #000;
+}
+/********************************/
+.container-sub .up-sub .two{
+    width: 32%; 
+    padding-top: 40px;
+    position: absolute;
+}
+
+.container-sub .up-sub .two h2{
+    font-size: x-large;
+    color: #ca9f54;
+    padding-left: 43px;
+    line-height: 3rem;
+    font-size: x-large;
+    font-family: fangsong;
+    letter-spacing: 2px;
+    font-weight: bolder;
+}
+.container-sub .up-sub .two ul{
+    list-style-type: none;
+}
+
+.container-sub .up-sub .two ul li i {
+    color: aliceblue;
+    margin-right: 20px;
+}
+.container-sub .up-sub .two ul li p{
+    display: inline-block;
+}
+.container-sub .up-sub .two ul li p a{
+    text-decoration: none;
+    color: #f3f6ff;
+    font-size: x-large;
+}
+.container-sub .up-sub .two ul li p a:hover{
+    text-decoration: underline;
+    color: #ca9f54;
+    transition: 1.5s;
+}
+
+/************/
+.container-sub .up-sub .three{
+    position: absolute;
+    left: 74%;
+    top: 33px;
+}
+.container-sub .up-sub .three h2{
+    font-size: x-large;
+    color: #ca9f54;
+    padding-left: 43px;
+    line-height: 3rem;
+    font-size: x-large;
+    font-family: fangsong;
+    letter-spacing: 2px;
+    font-weight: bolder;
+    margin-bottom: 70px;
+}
+.container-sub .up-sub .three input{
+    display: block; 
+    display: block;
+    width: 240px;
+    height: 27px;
+    padding: 10px;
+    margin-bottom: 22px;
+}
+.container-sub .up-sub .three button{
+    font-size: large;
+    color: #ca9f54;
+    width: 266px;
+    height: 50px;
+    background-color: #DFB163;
+    color: #000;
+    transition: 1.5s;
+}
+.container-sub .up-sub .three button:hover{
+    cursor: pointer;
+    transition: 1.5s;
+    background-color: #ca9f54;
+    color: bisque;
+
+}
+.container-sub .line{
+    width: 82%;
+    margin: auto;
+    height: 1px;
+    background-color: rgb(126, 136, 136);
+}
+
+.container-sub .end{
+    color: #ca9f54;
+    list-style-type: none;
+    text-align: center;
+}
+.container-sub .end i{
+    font-size: larger;
+    margin-left: 20px;
+}
+.container-sub .end p{
+    display: inline-block;
+}
+
+
+
+
+
+
+
+
+
